@@ -3,7 +3,7 @@
 ## 安装
 
 ```shell
-npm install "@xmagic/chinese-currency
+npm install @xmagic/chinese-currency
 ```
 
 ## 使用方法
@@ -11,7 +11,7 @@ npm install "@xmagic/chinese-currency
 ### typescript项目使用
 
 ```ts
-import { chineseCurrency } from '"@xmagic/chinese-currency'
+import { chineseCurrency } from '@xmagic/chinese-currency'
 const num = chineseCurrency('壹拾贰亿叁仟肆佰伍拾陆万柒仟捌佰玖拾元壹角贰分叁厘肆毫'); // 1234567890.1234
 ```
 
