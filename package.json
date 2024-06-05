@@ -1,6 +1,6 @@
 {
   "name": "@xmagic/chinese-currency",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "keywords": ["金额转数字", "中文转数字", "大写转数字"],
   "description": "中文大写金额转数字",

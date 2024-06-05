@@ -6,7 +6,7 @@ export default defineConfig({
     build: {
         lib: {
             entry: './lib/index.ts', // TS库入口文件
-            name: 'chineseCurrency', // 挂载到全局的变量名
+            name: 'Xmagic', // 挂载到全局的变量名
             formats: ['es', 'umd' ],
             fileName: (format) => `chinese-currency.${format}.js`
         },
