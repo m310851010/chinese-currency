@@ -49,6 +49,10 @@ describe("Dummy test", () => {
     expect(chineseCurrency('伍佰元整')).toBe(500)
   })
 
+  it("test 伍佰亿元零肆毫", () => {
+    expect(chineseCurrency('伍佰亿元零肆毫')).toBe(50000000000.0004)
+  })
+
   it("test 玖仟万元整", () => {
     expect(chineseCurrency('玖仟万元整')).toBe(90000000)
   })
