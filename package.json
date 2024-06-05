@@ -1,0 +1,45 @@
+{
+  "name": "@xmagic/chinese-currency",
+  "version": "0.0.1",
+  "private": false,
+  "keywords": ["金额转数字", "中文转数字", "大写转数字"],
+  "description": "中文大写金额转数字",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "jest --coverage",
+    "test:watch": "jest --coverage --watch",
+    "test:prod": "npm run lint && npm run test -- --no-cache"
+  },
+  "main": "./dist/chinese-currency.umd.js",
+  "module": "./dist/chinese-currency.js",
+  "files": ["dist/*"],
+  "exports": {
+    ".": {
+      "import": "./dist/vite-lib.es.js",
+      "require": "./dist/hinese-currency.umd.js"
+    }
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m310851010/chinese-currency"
+  },
+  "bugs": {
+    "url": "https://github.com/m310851010/chinese-currency/issues",
+    "email": "310851010@qq.com"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "rollup-plugin-copy": "^3.5.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.9.1",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "jest-config": "^29.7.0",
+    "ts-jest": "^29.1.4"
+  }
+}

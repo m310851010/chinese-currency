@@ -1,0 +1,19 @@
+{
+  "name": "chinese-currency",
+  "version": "0.0.1",
+  "description": "中文大写金额转数字",
+  "main": "./dist/chinese-currency.umd.cjs",
+  "module": "./dist/chinese-currency.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vite-lib.es.js",
+      "require": "./dist/hinese-currency.umd.cjs"
+    }
+  },
+  "private": false,
+  "keywords": ["金额转数字", "中文转数字", "大写转数字"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m310851010/chinese-currency"
+  }
+}
