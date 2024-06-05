@@ -19,7 +19,7 @@ const num = chineseCurrency('壹拾贰亿叁仟肆佰伍拾陆万柒仟捌佰玖
 
 ```html
 
-<script src="./chinese-currency.js"></script>
+<script src="./chinese-currency.umd.js"></script>
 <script>
     const num = chineseCurrency('壹拾贰亿叁仟肆佰伍拾陆万柒仟捌佰玖拾元壹角贰分叁厘肆毫'); // 1234567890.1234
 </script>
