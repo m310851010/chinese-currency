@@ -28,5 +28,5 @@ export function chineseCurrency(amountStr: string): number {
             total += digitMap[char] * unit * base;
         }
     }
-    return total + (percentTotal / 10000);
+    return total + percentTotal / 10000;
 }
