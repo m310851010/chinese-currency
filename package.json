@@ -18,7 +18,7 @@
   "exports": {
     ".": {
       "import": "./dist/vite-lib.es.js",
-      "require": "./dist/hinese-currency.umd.js"
+      "require": "./dist/chinese-currency.umd.js"
     }
   },
 
